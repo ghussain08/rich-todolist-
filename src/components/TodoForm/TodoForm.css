@@ -1,0 +1,35 @@
+.TodoForm{
+    padding: 20px;
+    background-color: ghostwhite;
+    border-radius: 5PX;
+    /* box-shadow: 0 0 25px rgba(0,0,0,.2), 10px 10px 15px rgba(0,0,0,.2); */
+
+}
+.TodoForm input, 
+.TodoForm button{
+    outline: none;
+    height: 45px;
+    border-radius: 4px;
+
+}
+.TodoForm input{
+    width: 70%;
+    padding: 5px 10px;
+    margin-right: 5%;
+    border: 2px solid #333;
+
+}
+.TodoForm button{
+    padding: 5px 10px;
+    width:25%;
+    background-color: #333;
+    color: white;
+    border: none;
+    transition: all .3s ease;
+    box-shadow: 0 15px 15px rgba(0,0,0,.2);
+}
+.TodoForm button:hover{
+    cursor: pointer;
+
+    box-shadow:  0 8px 8px rgba(0, 0, 0, .4)
+}
